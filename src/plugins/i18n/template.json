@@ -1,0 +1,51 @@
+// JSON GENERATOR
+// https://next.json-generator.com/VJ8ZX5O3D
+{
+  guid: '{{guid()}}',
+  version: '0.1',
+  encoding: 'UTF-8',
+  updated: '{{moment().format("dddd, D-M-YYYY, HH:MM:SS")}}',
+  page: [
+    {
+      'repeat(2)': {
+        component: [
+              {
+                'repeat(2)': {
+                  element: 'text',
+                }
+              }
+  ]
+      }
+    }
+  ]
+}
+
+// JSON
+{
+  "guid": "09d75cf2-5332-46be-bfd3-c29c687b3018",
+  "version": "0.1",
+  "encoding": "UTF-8",
+  "updated": "Thursday, 28-11-2019, 10:11:04",
+  "page": [
+    {
+      "component": [
+        {
+          "element": "text"
+        },
+        {
+          "element": "text"
+        }
+      ]
+    },
+    {
+      "component": [
+        {
+          "element": "text"
+        },
+        {
+          "element": "text"
+        }
+      ]
+    }
+  ]
+}
