@@ -5,22 +5,22 @@
       <div class="column is-4">
         <div class="card is-usp"> <img role="presentation" src="@/assets/svg/icons/feat1.svg">
           <hr class="spacer is-1">
-          <h3 class="title is-4 is-spaced"> Quality Family Time </h3>
-          <p class="subtitle is-5"> Storytelling plays a vital role when growing up. Create lasting memories and embark on fantastic journeys with beloved characters. </p>
+          <h3 class="title is-4 is-spaced"> {{ $t("c-section-features-3.title1") }}</h3>
+          <p class="subtitle is-5"> {{ $t("c-section-features-3.subtitle1") }}</p>
         </div>
       </div>
       <div class="column is-4">
         <div class="card is-usp"> <img role="presentation" src="@/assets/svg/icons/feat2.svg">
           <hr class="spacer is-1">
-          <h3 class="title is-4 is-spaced"> Teach Valuable Life Lessons </h3>
-          <p class="subtitle is-5"> We deeply care about diversity and empowerment - each Storyworld contains educational aspects and storytelling tips to teach valuable life lessons. </p>
+          <h3 class="title is-4 is-spaced"> {{ $t("c-section-features-3.title2") }}</h3>
+          <p class="subtitle is-5"> {{ $t("c-section-features-3.subtitle2") }}</p>
         </div>
       </div>
       <div class="column is-4">
         <div class="card is-usp"> <img role="presentation" src="@/assets/svg/icons/feat3.svg">
           <hr class="spacer is-1">
-          <h3 class="title is-4 is-spaced"> A Safety Net for Storytelling </h3>
-          <p class="subtitle is-5"> Each bedtime story includes an easy-to-remember summary of Storypoints and the interactive Storybuilder generates millions of exciting storylines. </p>
+          <h3 class="title is-4 is-spaced"> {{ $t("c-section-features-3.title3") }}</h3>
+          <p class="subtitle is-5"> {{ $t("c-section-features-3.subtitle3") }}</p>
         </div>
       </div>
     </div>

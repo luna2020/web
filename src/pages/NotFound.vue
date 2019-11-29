@@ -8,15 +8,29 @@
             <img class="is-flex image is-centered" src="@/assets/img/not-found-3.png">
           </div>
         </div>
-        <h1 class="title is-1 is-spaced"> Page not found </h1>
-        <h2 class="subtitle is-5"> How did you even end up here? </h2>
+        <h1 class="title is-1 is-spaced">{{ $t("p-not-found.title") }} </h1>
+        <h2 class="subtitle is-5"> {{ $t("p-not-found.subtitle") }}  </h2>
         <hr class="spacer is-1">
-        <router-link to="/" class="button is-primary is-medium">Bring me back</router-link>
+        <router-link to="/" class="button is-primary is-medium">{{ $t("p-not-found.btn-primary") }} </router-link>
       </div>
     </div>
   </section>
 </layout-default>
 </template>
+<i18n>
+{
+  "en": {
+    "not-found": {
+        "title": "Abraatabra"
+    }
+  },
+  "gr": {
+    "not-found": {
+        "title": "Αντε γεια"
+    }
+  }
+}
+</i18n>
 
 <script>
 import LayoutDefault from '@/layouts/LayoutDefault.vue'

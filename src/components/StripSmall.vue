@@ -4,8 +4,8 @@
     <div class="container">
       <div class="columns is-vcentered">
         <div class="column is-two-thirds">
-          <h1 class="title"> Explore our Storyworlds </h1>
-          <h2 class="subtitle"> Choose from dozens of readymade storyworlds covering numerous categories like fantasy </h2>
+          <h1 class="title"> {{ $t("c-strip-small.title") }}</h1>
+          <h2 class="subtitle"> {{ $t("c-strip-small.subtitle") }} </h2>
         </div>
       </div>
     </div>

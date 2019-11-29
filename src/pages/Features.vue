@@ -11,7 +11,6 @@
 
 <script>
 import Hero from '@/components/Hero.vue'
-
 import SectionCenter from '@/components/SectionCenter.vue'
 import SectionFeatures3 from '@/components/SectionFeatures3.vue'
 import SectionLeftImg from '@/components/SectionLeftImg.vue'

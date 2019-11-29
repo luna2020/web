@@ -4,18 +4,18 @@
     <div class="container">
       <div class="columns">
         <div class="column is-6 is-5-widescreen">
-          <div class="summary"> 
-            
+          <div class="summary">
+
             <router-link :to="$i18nRoute({ name: 'home'})" class="brand">
               <div class="brand-icon"> <img alt="Bedtime Stories" role="presentation" src="@/assets/img/app-icon.png">
               </div>
               <div class="brand-content">
-                <div class="brand-title"> Bedtime Stories </div>
-                <div class="brand-subtitle"> Exciting tales for young &amp; old </div>
+                <div class="brand-title"> {{ $t("brand.title") }} </div>
+                <div class="brand-subtitle"> {{ $t("brand.subtitle") }}</div>
               </div>
             </router-link>
             <hr class="spacer is-2">
-            <p class="is-size-6"> The storytelling app for families - read diverse &amp; empowering stories or tell them in your own words. </p>
+            <p class="is-size-6"> {{ $t("brand.description") }}</p>
             <hr class="spacer is-2">
             <a href="http://www.google.com" class="app-store-badge" target="_blank">
               <img role="presentation" src="@/assets/svg/icons/webapp.svg">
@@ -27,7 +27,7 @@
               <img role="presentation" src="@/assets/svg/icons/android.svg">
             </a>
             <hr class="spacer is-1">
-            <p class="menu-label is-size-6">Follow Us</p>
+            <p class="menu-label is-size-6">{{ $t("nav.follow-us") }}</p>
             <div class="field is-grouped">
               <div class="control"><a href="http://www.google.com" target="_blank" class="button is-white has-shadow">
                   <base-icon name="spectrum" />
@@ -55,50 +55,50 @@
           <div class="columns">
             <div class="column is-4">
               <div class="menu">
-                <p class="menu-label">Product</p>
+                <p class="menu-label">{{ $t("nav.category-product") }}</p>
                 <ul class="menu-list">
                   <li>
-                    <router-link :to="$i18nRoute({ name: 'home'})" exact>Home</router-link>
+                    <router-link :to="$i18nRoute({ name: 'home'})" exact>{{ $t("nav.home") }}</router-link>
                   </li>
                   <li>
-                    <router-link :to="$i18nRoute({ name: 'features'})">Features</router-link>
+                    <router-link :to="$i18nRoute({ name: 'features'})">{{ $t("nav.features") }}</router-link>
                   </li>
                   <li>
-                    <router-link :to="$i18nRoute({ name: 'updates'})">Updates</router-link>
+                    <router-link :to="$i18nRoute({ name: 'updates'})">{{ $t("nav.updates") }}</router-link>
                   </li>
                   <li>
-                    <router-link :to="$i18nRoute({ name: 'security'})">Security</router-link>
+                    <router-link :to="$i18nRoute({ name: 'security'})">{{ $t("nav.security") }}</router-link>
                   </li>
                   <li>
-                    <router-link :to="$i18nRoute({ name: 'pricing'})">Pricing</router-link>
+                    <router-link :to="$i18nRoute({ name: 'pricing'})">{{ $t("nav.pricing") }}</router-link>
                   </li>
                 </ul>
               </div>
             </div>
             <div class="column is-4">
               <div class="menu">
-                <p class="menu-label">Resources</p>
+                <p class="menu-label">{{ $t("nav.category-resources") }}</p>
                 <ul class="menu-list">
-                  <li><a href="/external_medium" target="_blank">News ↗</a></li>
-                  <li><a href="/external_spectrum">Community ↗</a></li>
-                  <li><a href="/external_trello">Roadmap ↗</a></li>
-                  <li><a href="/external_documentation">Help ↗</a></li>
+                  <li><a href="/external_medium" target="_blank">{{ $t("nav.news") }}</a></li>
+                  <li><a href="/external_spectrum">{{ $t("nav.community") }}</a></li>
+                  <li><a href="/external_trello">{{ $t("nav.roadmap") }}</a></li>
+                  <li><a href="/external_documentation">{{ $t("nav.help") }}</a></li>
 
                 </ul>
               </div>
             </div>
             <div class="column is-4">
               <div class="menu">
-                <p class="menu-label">Company</p>
+                <p class="menu-label">{{ $t("nav.category-company") }}</p>
                 <ul class="menu-list">
                   <li>
-                    <router-link :to="$i18nRoute({ name: 'about'})">About</router-link>
+                    <router-link :to="$i18nRoute({ name: 'about'})">{{ $t("nav.about") }}</router-link>
                   </li>
                   <li>
-                   <router-link :to="$i18nRoute({ name: 'values'})">Values</router-link>
+                    <router-link :to="$i18nRoute({ name: 'values'})">{{ $t("nav.values") }}</router-link>
                   </li>
-                  <li><a href="/external_linkedin" target="_blank">Jobs ↗</a></li>
-                  <li><a href="mailto:email@email.com?subject=%F0%9F%91%8B%20Hello&body=If%20you%20need%20help%20you%20can%20also%20visit%20our%20community%20at%20www.google.com" target="_blank">Contact ↗</a></li>
+                  <li><a href="/external_linkedin" target="_blank">{{ $t("nav.jobs") }}</a></li>
+                  <li><a href="mailto:email@email.com?subject=%F0%9F%91%8B%20Hello&body=If%20you%20need%20help%20you%20can%20also%20visit%20our%20community%20at%20www.google.com" target="_blank">{{ $t("nav.contact") }}</a></li>
                 </ul>
               </div>
             </div>
@@ -112,34 +112,27 @@
           <nav class="menu-hor has-space-separator is-left">
             <ul class="menu-list-hor">
               <li>
-                <router-link to="privacy">Privacy</router-link>
+                <router-link to="privacy">{{ $t("nav.privacy") }}</router-link>
               </li>
               <li>
-                <router-link to="terms">Terms</router-link>
+                <router-link to="terms">{{ $t("nav.terms") }}</router-link>
               </li>
               <li>
-                <router-link to="cookies">Cookies </router-link>
+                <router-link to="cookies">{{ $t("nav.cookies") }}</router-link>
               </li>
             </ul>
           </nav>
         </div>
         <div class="column colophon has-text-right is-hidden-mobile">
-          Made by people all over the world. © 2019 Help!
+          {{ $t("brand.colophon") }}
         </div>
         <div class="column colophon has-text-left is-hidden-tablet">
-          Made by people all over the world. © 2019 Help
+          {{ $t("brand.colophon") }}
         </div>
         <div class="column is-1 lang-select">
-          <!-- <b-field>
-            <b-select class="select is-lang" v-model="$i18n.locale">
-              <option v-for="(entry, i) in langs" :key="`Entry${i}`" :value="entry.language">
-                {{entry.title}}
-              </option>
-            </b-select>
-          </b-field> -->
-            <LangSwitch />
+          <LangSwitch />
         </div>
-       </div>
+      </div>
     </div>
   </div>
 </footer>
@@ -149,25 +142,11 @@
 import BaseIcon from '@/components/atoms/BaseIcon.vue'
 import LangSwitch from '@/components/atoms/LangSwitch'
 
-
 export default {
   name: `Footer`,
   components: {
     BaseIcon,
     LangSwitch
-  },
-  data() {
-    return {
-      langs: [{
-          language: 'en',
-          title: 'English'
-        },
-        {
-          language: 'el',
-          title: 'Greek'
-        }
-      ]
-    }
   }
 }
 </script>

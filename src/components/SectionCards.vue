@@ -9,14 +9,14 @@
                 <div class="card-image" style="background-image: url(https://d1csp7g2pnyvdv.cloudfront.net/uploads/story_world/cover/30/large_c0703788-9f2a-4ffe-9039-3890aeb48d81.jpg); "></div>
               </a>
               <div class="card-body"> <a href="/library/the-mystery-on-utopus">
-                  <div class="card-title"> The Mystery on Utopus </div>
+                  <div class="card-title"> {{ $t("c-section-cards.card-title1") }}</div>
                 </a>
-                <div class="card-meta"> <i class="icon-user"></i>9-12 years </div>
+                <div class="card-meta"> <i class="icon-user"></i>{{ $t("c-section-cards.card-meta1") }}</div>
                 <div class="card-description">
-                  <p>When a mysterious illness befalls the students of The Intergalactic School, Odd and his new friend, Leimei, start to investigate it.</p>
+                  <p>{{ $t("c-section-cards.card-description1") }}</p>
                 </div>
               </div>
-              <div class="card-footer"> <a class="button is-primary is-outlined" href="/library/the-mystery-on-utopus">Read now</a> </div>
+              <div class="card-footer"> <a class="button is-primary is-outlined" href="/library/the-mystery-on-utopus">{{ $t("c-section-cards.btn-primary") }}</a> </div>
             </div>
           </div>
           <div class="column is-6 is-6-widescreen is-flex" data-groups="[&quot;2-4&quot;]">
@@ -24,14 +24,14 @@
                 <div class="card-image" style="background-image: url(https://d1csp7g2pnyvdv.cloudfront.net/uploads/story_world/cover/18/large_ed44870a-9fd0-4bd9-8add-69da0aa1b52b.jpg); "></div>
               </a>
               <div class="card-body"> <a href="/library/brenda-and-her-big-dog-duke">
-                  <div class="card-title"> Brenda and her Big Dog Duke </div>
+                  <div class="card-title"> {{ $t("c-section-cards.card-title2") }} </div>
                 </a>
-                <div class="card-meta"> <i class="icon-user"></i>2-4 years </div>
+                <div class="card-meta"> <i class="icon-user"></i>{{ $t("c-section-cards.card-meta2") }}</div>
                 <div class="card-description">
-                  <p>When Brenda's family moves to the country, her wish for a pet comes true. But her big dog, Duke, is a bit more than she can handle.</p>
+                  <p>{{ $t("c-section-cards.card-description2") }}</p>
                 </div>
               </div>
-              <div class="card-footer"> <a class="button is-primary is-outlined" href="/library/brenda-and-her-big-dog-duke">Read now</a> </div>
+              <div class="card-footer"> <a class="button is-primary is-outlined" href="/library/brenda-and-her-big-dog-duke">{{ $t("c-section-cards.btn-primary") }}</a> </div>
             </div>
           </div>
 
