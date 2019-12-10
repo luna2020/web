@@ -1,5 +1,5 @@
 <template>
-<section class="section is-platform is-medium" id="platform">
+<section class="section is-platform is-large" id="platform">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-12 is-10-fullhd">
@@ -7,7 +7,7 @@
           <div class="column is-6">
             <div class="section-header">
               <h2 class="title is-2 is-spaced"> {{ $t("c-tabs-vertical.title") }} </h2>
-              <p class="subtitle is-4"> {{ $t("c-tabs-vertical.title") }} </p>
+              <p class="subtitle is-4"> {{ $t("c-tabs-vertical.subtitle") }} </p>
               <hr class="spacer is-2">
             </div>
             <div class="section-body">
@@ -24,6 +24,7 @@
                   <h3 class="title is-4"> {{ $t("c-tabs-vertical.tab-title4") }}</h3>
                   <p class="subtitle"> {{ $t("c-tabs-vertical.tab-subtitle4") }}</p>
                 </a> </div>
+              <hr class="spacer is-3">
             </div>
           </div>
           <div class="column is-6 align-self-stretch">

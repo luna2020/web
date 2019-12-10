@@ -1,6 +1,6 @@
 <template>
 <layout-default>
-  <Hero class="is-danger is-bold" />
+  <HeroFeatures />
   <TabsVertical />
   <SectionFeatures3 />
   <SectionLeftImg />
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Hero from '@/components/Hero.vue'
+import HeroFeatures from '@/components/HeroFeatures.vue'
 import SectionCenter from '@/components/SectionCenter.vue'
 import SectionFeatures3 from '@/components/SectionFeatures3.vue'
 import SectionLeftImg from '@/components/SectionLeftImg.vue'
@@ -21,7 +21,7 @@ import LayoutDefault from '@/layouts/LayoutDefault.vue'
 export default {
   name: 'Features',
   components: {
-    Hero,
+    HeroFeatures,
     SectionCenter,
     SectionFeatures3,
     SectionLeftImg,

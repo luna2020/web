@@ -1,5 +1,7 @@
 <template>
 <layout-default>
+    <HeroAbout />
+
   <SectionGrid class="is-medium has-background" />
   <section class="section is-medium">
     <div class="container">
@@ -48,10 +50,12 @@ import SectionCenter from '@/components/SectionCenter.vue'
 import SectionFeatures2 from '@/components/SectionFeatures2.vue'
 import SectionGrid from '@/components/SectionGrid.vue'
 import LayoutDefault from '@/layouts/LayoutDefault.vue'
+import HeroAbout from '@/components/HeroAbout.vue'
 
 export default {
   name: 'About',
   components: {
+    HeroAbout,
     SectionCenter,
     SectionFeatures2,
     SectionGrid,

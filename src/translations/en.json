@@ -38,34 +38,39 @@
         "privacy": "Privacy",
         "terms": "Terms",
         "cookies": "Cookies",
-        "go": "🚀 Let's go"
+        "go": "🚀 Let's go",
+        "go-mobile": "🚀 Go"
+    },
+    "c-message": {
+        "title": "Get one month for free by participating in our feedback survey ",
+        "btn-primary": "🙌 Get started"
     },
     "c-banner": {
         "title": "Get one month for free by participating in our feedback survey",
         "btn-primary": "🙌 Get started"
     },
-    "c-hero": {
-        "title": "Become a better storyteller",
+    "c-hero-features": {
+        "title": "These bedtime ssadsdtory app for families",
         "subtitle": "Join our Storytelling School for families to learn everything about stories and how to tell them. For free in our app!",
-        "btn-primary": "🎧 Listen to introduction",
-        "btn-secondary": "Explore courses",
-        "btn-strapline": "Parents' Choice Approved App",
-        "img-caption:": "Join our Storytelling School for Families."
+        "btn-primary": "🎧 Listen",
+        "btn-secondary": "Learn more",
+        "strapline": "Parents' Choice Approved App",
+        "image-text": "Image caption of image"
     },
     "c-hero-about": {
         "title": "Become a better storyteller",
         "subtitle": "Join world's first Storytelling School for Families! Learn everything about stories and how to tell them. For free in our app!",
-        "btn-primary": "🎓 Explore our courses",
-        "btn-strapline": "Parents' Choice Approved App",
-        "img-caption:": "Join our Storytelling School for Families."
+        "btn-primary": "🎓 Explore",
+        "strapline": "Parents' Choice Approved App",
+        "image-text": "Image caption of image"
     },
     "c-hero-home": {
-        "title": "The bedtime ssadsdtory app for families",
+        "title": "These bedtime ssadsdtory app for families",
         "subtitle": "Awaken the inner storyteller with diverse and empowering stories for young & old. Storytelling has never been easier.",
-        "btn-primary": "How does it work?",
+        "btn-primary": "🙌 Get started",
         "btn-secondary": "Learn more",
-        "btn-strapline": "Parents' Choice Approved App",
-        "img-caption:": "<u>Karlotta the Knight</u> with her squire and steed."
+        "strapline": "Parents' Choice Approved App",
+        "image-text": "Image caption of image"
     },
     "c-section-cards": {
         "card-title1": "The Mystery on Utopus",
@@ -107,7 +112,7 @@
         "card-title4": "Martin Wessely",
         "card-subtitle4": "Development, iOS "
     },
-    "c-section-left-image": {
+    "c-section-left-img": {
         "overtitle": "Course #1",
         "title": "Story basics",
         "subtitle": "We're talking about stories quite a lot - but what actually is a story and how is it built? In this course you will learn the most important building blocks of a story, we'll talk about characters, Storypoints and much more. So take a seat and let's begin.",
@@ -120,10 +125,10 @@
         "left-img-overtitle6": "Finding the right stories",
         "text-small": "What makes a great story great?"
     },
-    "c-section-right-image": {
+    "c-section-right-img": {
         "overtitle": " Course #2",
         "title": "How to tell a story",
-        "subtitle1": "Storytelling is not only WHAT you tell, but also HOW you tell it. In this course we'll explore different techniques to tell engaging stories.",
+        "subtitle": "Storytelling is not only WHAT you tell, but also HOW you tell it. In this course we'll explore different techniques to tell engaging stories.",
         "list-title": "You'll learn about:",
         "btn-primary": "🗣 Start telling stories",
         "list-item1": "Creating a ritual",
@@ -142,6 +147,8 @@
         "subtitle": "We might deal with trolls, werewolfs and huge dogs, but we don’t bite."
     },
     "c-tabs-vertical": {
+        "title":"Become a better storyteller",
+        "subtitle":"Awaken the inner storyteller wr been easier.",
         "tab-title1": "Growing collection of Storyworlds",
         "tab-subtitle1": "Explore exciting Storyworlds in every imaginable genre for storytellers, readers and listeners from young to old.",
         "tab-title2": "Stories to fall in love with",
@@ -222,7 +229,7 @@
         "content-p12": "This privacy policy was last updated on November 14, 2018. Our privacy policy may change from time to time, and we explicitly reserve our right to do so. If we make any material changes to our policies, we will place a prominent notice on our website or application. "
     },
     "p-not-found": {
-        "title": " Page not found",
+        "title": "Page not found",
         "subtitle": "How did you even end up here?",
         "btn-primary": "Bring me back"
     },

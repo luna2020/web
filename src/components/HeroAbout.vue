@@ -4,18 +4,24 @@
     <div class="columns is-vcentered">
       <div class="column is-5-fullhd is-offset-1-fullhd">
         <div class="section-header">
-          <h1 class="title is-0 is-spaced"> {{ $t("c-hero-about.title") }}<span class="spacer is-horizontal is-05"></span><span class="tag is-white">{{ $t("c-common.new") }}</span> </h1>
+          <h1 class="title is-spaced"> {{ $t("c-hero-about.title") }}
+          </h1>
           <h2 class="subtitle is-4"> {{ $t("c-hero-about.subtitle") }}</h2>
           <div class="field is-grouped">
-            <div class="control"> <a class="button is-white is-medium" href="/school">{{ $t("c-hero-about.btn-primary") }}</a> </div>
-          </div>{{ $t("c-hero-about.title") }}
+            <div class="control">
+              <a class="button is-white is-medium" href="/school">{{ $t("c-hero-about.btn-primary") }}</a>
+            </div>
+          </div>
           <hr class="spacer is-1-5">
-          <a class="has-tint has-text-weight-semibold" href="http://www.parents-choice.org/product.cfm?product_id=35555" target="_blank"><i class="icon icon-award"></i><span>{{ $t("c-hero-about.strapline") }}</span></a>
+          <a class="has-tint has-text-weight-semibold" href="http://www.parents-choice.org/product.cfm?product_id=35555" target="_blank">
+            <feather type="feather"></feather>
+            <span>{{ $t("c-hero-about.strapline") }}</span>
+          </a>
         </div>
       </div>
       <div class="column is-6">
         <div class="section-media"> <img class="full-width" role="presentation" src="@/assets/img/header.jpg">
-          <p> <small>{{ $t("c-hero-about.img-caption") }}</small> </p>
+          <p> <small>{{ $t("c-hero-about.image-text") }}</small> </p>
         </div>
       </div>
     </div>

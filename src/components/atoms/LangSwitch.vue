@@ -8,7 +8,6 @@
         </option>
       </select>
     </div>
-
   </div>
 </div>
 </template>

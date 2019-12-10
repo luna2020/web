@@ -11,7 +11,7 @@
               <div class="card-body"> <a href="/library/the-mystery-on-utopus">
                   <div class="card-title"> {{ $t("c-section-cards.card-title1") }}</div>
                 </a>
-                <div class="card-meta"> <i class="icon-user"></i>{{ $t("c-section-cards.card-meta1") }}</div>
+                <div class="card-meta"> <feather type="user"></feather>{{ $t("c-section-cards.card-meta1") }}</div>
                 <div class="card-description">
                   <p>{{ $t("c-section-cards.card-description1") }}</p>
                 </div>
@@ -26,7 +26,7 @@
               <div class="card-body"> <a href="/library/brenda-and-her-big-dog-duke">
                   <div class="card-title"> {{ $t("c-section-cards.card-title2") }} </div>
                 </a>
-                <div class="card-meta"> <i class="icon-user"></i>{{ $t("c-section-cards.card-meta2") }}</div>
+                <div class="card-meta"> <feather type="user"></feather>{{ $t("c-section-cards.card-meta2") }}</div>
                 <div class="card-description">
                   <p>{{ $t("c-section-cards.card-description2") }}</p>
                 </div>

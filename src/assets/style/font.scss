@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
-
 html,
 body,
 button,
 input,
 select,
 textarea {
-  font-family:'Poppins', sans-serif;
+  font-family:"Mont", sans-serif
 }
 code,
 pre {
@@ -37,4 +35,97 @@ html {
  section {
   display:block
  }
- 
+
+ html {
+  height: 100%;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  font-size: 12px
+}
+
+@media screen and (min-width: 769px),
+print {
+  html {
+    font-size: 14px
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  html {
+    font-size: 16px
+  }
+}
+
+
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont/Mont-Heavy.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Mont/Mont-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Mont/Mont-Heavy.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-Heavy.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-Heavy.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 900;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont/Mont-HeavyItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Mont/Mont-HeavyItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Mont/Mont-HeavyItalic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-HeavyItalic.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-HeavyItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 900;
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont/Mont-SemiBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Mont/Mont-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Mont/Mont-SemiBold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-SemiBold.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-SemiBold.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 700;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont/Mont-SemiBoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Mont/Mont-SemiBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Mont/Mont-SemiBoldItalic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-SemiBoldItalic.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-SemiBoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 700;
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont/Mont-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Mont/Mont-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Mont/Mont-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-Regular.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 600;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont/Mont-RegularItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Mont/Mont-RegularItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Mont/Mont-RegularItalic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-RegularItalic.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-RegularItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 600;
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+}

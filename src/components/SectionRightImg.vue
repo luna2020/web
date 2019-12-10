@@ -5,7 +5,8 @@
       <div class="column is-6 is-offset-1">
         <div class="section-header">
           <h3 class="subtitle is-5 is-muted"> {{ $t("c-section-right-img.overtitle") }}</h3>
-          <h2 class="title is-2 is-spaced"> {{ $t("c-section-right-img.title") }}<span class="spacer is-horizontal is-05"></span><span class="tag is-warning is-uppercase">{{ $t("c-common.free") }}</span> </h2>
+          <h2 class="title is-2 is-spaced"> {{ $t("c-section-right-img.title") }}<span class="spacer is-horizontal is-05"></span><span class="tag is-warning is-uppercase">
+            {{ $t("common.free") }}</span> </h2>
           <h3 class="subtitle is-4"> {{ $t("c-section-right-img.subtitle") }} </h3>
           <h3 class="subtitle is-5 is-muted"> {{ $t("c-section-right-img.list-title") }}</h3>
           <ul class="numbered-list">
@@ -32,7 +33,8 @@
         </div>
       </div>
       <div class="column is-5">
-        <div class="section-media aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="1000"> <img class="full-width" role="presentation" src="../../src/assets/svg/illos/right.svg">
+        <div class="section-media aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="1000"> 
+          <img class="full-width" role="presentation" src="@/assets/img/hero-4-removebg-preview.png">
           <p> <small>{{ $t("c-section-right-img.text-small") }}</small> </p>
         </div>
       </div>
