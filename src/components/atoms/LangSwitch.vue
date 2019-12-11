@@ -3,8 +3,8 @@
   <div class="control">
     <div class="select is-lang">
       <select class="select is-lang" name="language" @change="changeLanguage">
-        <option v-for="entry in supportedLanguages" :key="entry" :selected="isCurrentLanguage(entry)" :class="{ 'is-selected': isCurrentLanguage(entry) }" :value="entry">
-          {{entry}}
+        <option v-for="lang in supportedLanguages" :key="lang" :selected="isCurrentLanguage(lang)" :class="{ 'is-selected': isCurrentLanguage(lang) }" :value="lang">
+          {{lang}}
         </option>
       </select>
     </div>

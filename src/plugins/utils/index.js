@@ -3233,10 +3233,10 @@
 }, function (e, t, n) {
   var r, o;
   /*!
-    Copyright (c) 2017 Jed Watson.
-    Licensed under the MIT License (MIT), see
-    http://jedwatson.github.io/classnames
-  */
+     Copyright (c) 2017 Jed Watson.
+     Licensed under the MIT License (MIT), see
+     http://jedwatson.github.io/classnames
+   */
   ! function () {
     "use strict";
 
@@ -3517,10 +3517,10 @@
     return Object(e)
   }
   /*
-  object-assign
-  (c) Sindre Sorhus
-  @license MIT
-  */
+   object-assign
+   (c) Sindre Sorhus
+   @license MIT
+   */
   var o = Object.getOwnPropertySymbols,
     i = Object.prototype.hasOwnProperty,
     a = Object.prototype.propertyIsEnumerable;

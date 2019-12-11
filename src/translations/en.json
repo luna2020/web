@@ -15,7 +15,9 @@
         "free": "Free",
         "top": "Top",
         "hot": "Hot",
-        "learn-more": "Learn more at"
+        "learn-more": "Learn more at",
+        "en": "English",
+        "el": "Greek"
     },
     "nav": {
         "category-product": "Product",

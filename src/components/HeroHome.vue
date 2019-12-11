@@ -13,7 +13,7 @@
           </div>
           <hr class="spacer is-1-5">
           <a class="has-tint has-text-weight-semibold" href="http://www.parents-choice.org/product.cfm?product_id=35555" target="_blank">
-            <feather type="user"></feather>
+            <feather type="user" class="svg-icon"></feather>
             <span>{{ $t("c-hero-home.strapline") }}</span>
           </a>
         </div>

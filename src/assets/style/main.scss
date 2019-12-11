@@ -5481,7 +5481,7 @@ a.tag:hover {
 .title {
   color: #463853;
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 800;
   line-height: 1.125
 }
 
@@ -9868,7 +9868,7 @@ print {
   -ms-flex-negative: 1;
   flex-shrink: 1;
   min-height: -webkit-min-content;
-  min-height: -moz-min-content;
+  // min-height: -moz-min-content;
   min-height: min-content
 }
 
@@ -14468,11 +14468,20 @@ print {
   text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale
+  // -moz-osx-font-smoothing: grayscale
 }
 
 .feather {
   display: inline-block !important;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale
+  // -moz-osx-font-smoothing: grayscale
+}
+
+.svg-icon {
+  height: 1em;
+  margin-top: -4px;
+  pointer-events: none;
+  vertical-align: middle;
+  width: 1em;
+  margin-right: 0.3rem;
 }

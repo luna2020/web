@@ -56,76 +56,44 @@ print {
   }
 }
 
-
-
+/* Regular 600 */
 @font-face {
   font-family: 'Mont';
-  src: url('../fonts/Mont/Mont-Heavy.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/Mont/Mont-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Mont/Mont-Heavy.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Mont/Mont-Heavy.woff2') format('woff2'), /* Modern Browsers */
-       url('../fonts/Mont/Mont-Heavy.ttf') format('truetype'); /* Safari, Android, iOS */
-  font-weight: 900;
+  src: url('../fonts/Mont/Mont-Regular.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-Regular.otf') format('opentype'); /* Safari, Android, iOS */
   font-style: normal;
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: 'Mont';
-  src: url('../fonts/Mont/Mont-HeavyItalic.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/Mont/Mont-HeavyItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Mont/Mont-HeavyItalic.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Mont/Mont-HeavyItalic.woff2') format('woff2'), /* Modern Browsers */
-       url('../fonts/Mont/Mont-HeavyItalic.ttf') format('truetype'); /* Safari, Android, iOS */
-  font-weight: 900;
-  font-style: italic;
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: 'Mont';
-  src: url('../fonts/Mont/Mont-SemiBold.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/Mont/Mont-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Mont/Mont-SemiBold.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Mont/Mont-SemiBold.woff2') format('woff2'), /* Modern Browsers */
-       url('../fonts/Mont/Mont-SemiBold.ttf') format('truetype'); /* Safari, Android, iOS */
-  font-weight: 700;
-  font-style: normal;
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: 'Mont';
-  src: url('../fonts/Mont/Mont-SemiBoldItalic.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/Mont/Mont-SemiBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Mont/Mont-SemiBoldItalic.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Mont/Mont-SemiBoldItalic.woff2') format('woff2'), /* Modern Browsers */
-       url('../fonts/Mont/Mont-SemiBoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
-  font-weight: 700;
-  font-style: italic;
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: 'Mont';
-  src: url('../fonts/Mont/Mont-Regular.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/Mont/Mont-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Mont/Mont-Regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Mont/Mont-Regular.woff2') format('woff2'), /* Modern Browsers */
-       url('../fonts/Mont/Mont-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
   font-weight: 600;
-  font-style: normal;
   text-rendering: optimizeLegibility;
 }
 
+/* SemiBold 700 */
 @font-face {
   font-family: 'Mont';
-  src: url('../fonts/Mont/Mont-RegularItalic.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/Mont/Mont-RegularItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Mont/Mont-RegularItalic.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Mont/Mont-RegularItalic.woff2') format('woff2'), /* Modern Browsers */
-       url('../fonts/Mont/Mont-RegularItalic.ttf') format('truetype'); /* Safari, Android, iOS */
-  font-weight: 600;
-  font-style: italic;
+  src: url('../fonts/Mont/Mont-SemiBold.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-SemiBold.otf') format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
 }
+
+
+/* Heavy 800 */
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont/Mont-Bold.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-Bold.otf') format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: 800;
+  text-rendering: optimizeLegibility;
+}
+
+/* Heavy 900 */
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont/Mont-Heavy.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-Heavy.otf') format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: 900;
+  text-rendering: optimizeLegibility;
+}
+
