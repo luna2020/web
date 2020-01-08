@@ -28,3 +28,4 @@ vue.config.js
 # Folders to ignore
 dist
 node_modules
+deploy.sh
