@@ -112,13 +112,13 @@
           <nav class="menu-hor has-space-separator is-left">
             <ul class="menu-list-hor">
               <li>
-                <router-link to="privacy">{{ $t("nav.privacy") }}</router-link>
+                <router-link :to="$i18nRoute({ name: 'privacy'})">{{ $t("nav.privacy") }}</router-link>
               </li>
               <li>
-                <router-link to="terms">{{ $t("nav.terms") }}</router-link>
+                <router-link :to="$i18nRoute({ name: 'terms'})">{{ $t("nav.terms") }}</router-link>
               </li>
               <li>
-                <router-link to="cookies">{{ $t("nav.cookies") }}</router-link>
+                <router-link :to="$i18nRoute({ name: 'cookies'})">{{ $t("nav.cookies") }}</router-link>
               </li>
             </ul>
           </nav>

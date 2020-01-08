@@ -1,20 +1,44 @@
 <template>
-<section>
-  <div class="container">
-    <b-tabs position="is-centered" class="block">
-      <b-tab-item label="Pictures" icon="google-photos">
-        <div class="container">
-          <div class="section-header has-text-centered">
-            <h2 class="title is-1 is-spaced"> {{ $t("c-tabs-horizontal.title") }} </h2>
-            <p class="subtitle is-4"> {{ $t("c-tabs-horizontal.subtitle") }} </p>
-          </div>
-        </div>
-      </b-tab-item>
-      <b-tab-item label="Music" icon="library-music">
-      </b-tab-item>
-      <b-tab-item label="Videos" icon="video">
-      </b-tab-item>
-    </b-tabs>
-  </div>
-</section>
+    <section>
+        <b-tabs v-model="activeTab">
+            <b-tab-item label="Pictures">
+                  <h3 class="title is-4"> {{ $t("c-tabs-vertical.tab-title1") }} </h3>
+                  <p class="subtitle"> {{ $t("c-tabs-vertical.tab-subtitle1") }}</p>            </b-tab-item>
+
+            <b-tab-item label="Music">
+                Lorem <br>
+                ipsum <br>
+                dolor <br>
+                sit <br>
+                amet.
+            </b-tab-item>
+
+            <b-tab-item :visible="showBooks" label="Books">
+                What light is light, if Silvia be not seen? <br>
+                What joy is joy, if Silvia be not by— <br>
+                Unless it be to think that she is by <br>
+                And feed upon the shadow of perfection? <br>
+                Except I be by Silvia in the night, <br>
+                There is no music in the nightingale.
+            </b-tab-item>
+
+            <b-tab-item label="Videos" disabled>
+                Nunc nec velit nec libero vestibulum eleifend.
+                Curabitur pulvinar congue luctus.
+                Nullam hendrerit iaculis augue vitae ornare.
+                Maecenas vehicula pulvinar tellus, id sodales felis lobortis eget.
+            </b-tab-item>
+        </b-tabs>
+    </section>
 </template>
+
+<script>
+    export default {
+        data() {
+            return {
+                activeTab: 0,
+                showBooks: false
+            }
+        }
+    }
+</script>

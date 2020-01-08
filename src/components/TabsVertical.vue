@@ -11,7 +11,8 @@
               <hr class="spacer is-2">
             </div>
             <div class="section-body">
-              <div class="vertical-tabs"> <a class="tab is-active" data-anchor="step#explore" href="#">
+              <div class="vertical-tabs"> 
+                <a class="tab is-active" data-anchor="step#explore" href="#">
                   <h3 class="title is-4"> {{ $t("c-tabs-vertical.tab-title1") }} </h3>
                   <p class="subtitle"> {{ $t("c-tabs-vertical.tab-subtitle1") }}</p>
                 </a><a class="tab" data-anchor="step#storyworld" href="#">
@@ -23,7 +24,8 @@
                 </a><a class="tab" data-anchor="step#storybuilder" href="#">
                   <h3 class="title is-4"> {{ $t("c-tabs-vertical.tab-title4") }}</h3>
                   <p class="subtitle"> {{ $t("c-tabs-vertical.tab-subtitle4") }}</p>
-                </a> </div>
+                </a> 
+              </div>
               <hr class="spacer is-3">
             </div>
           </div>
