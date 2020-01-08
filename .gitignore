@@ -23,6 +23,7 @@
 *.sublime-workspace
 nbproject
 Thumbs.db
+vue.config.js
 
 # Folders to ignore
 dist
