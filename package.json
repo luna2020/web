@@ -15,7 +15,7 @@
     "buefy": "^0.8.6",
     "core-js": "^3.4.1",
     "feather-icons": "^4.24.1",
-    "serialize-javascript": "^2.1.2",
+    "serialize-javascript": "^3.1.0",
     "vue": "^2.6.10",
     "vue-feather": "^1.0.0",
     "vue-flag-icon": "^1.0.6",
